@@ -1,6 +1,8 @@
 async function hello() {
     return 'world';
 }
+const person = { first: 'Jeff', last: 'Delaney' };
+const person2 = { first: 'Usain', last: 'Bolt', fast: true };
 let font;
 font = 'bold';
 // font = 'something' gives out an error
