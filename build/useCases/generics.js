@@ -1,11 +1,11 @@
 "use strict";
 //GENERICS
 class Observable {
-    value;
-    // RxJS observable, has internal value the can be observed
-    constructor(value) {
-        this.value = value;
-    }
+  value;
+  // RxJS observable, has internal value the can be observed
+  constructor(value) {
+    this.value = value;
+  }
 }
 let x;
 let y;
