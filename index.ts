@@ -4,6 +4,14 @@ async function hello() {
   return 'world'
 }
 
+//GENERICS
+class Observable<T> { // RxJS observable, has internal value the can be observed
+  constructor(public value: T) {}
+}
+let x: Observable<number>;
+let y: Observable<Person>;
+let z = new Observable(23)
+
 // TUPLE
 type MyList = [number, string, boolean, boolean?] // its presence can be optional using '?'
 const arr2: MyList = [1, 'Hi', false] // fixed length array with strict types

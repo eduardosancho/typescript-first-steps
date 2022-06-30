@@ -1,6 +1,16 @@
 async function hello() {
     return 'world';
 }
+//GENERICS
+class Observable {
+    value;
+    constructor(value) {
+        this.value = value;
+    }
+}
+let x;
+let y;
+let z = new Observable(23);
 const arr2 = [1, 'Hi', false]; // fixed length array with strict types
 // STRONG TYPE AN ARRAY
 const arr = [];
