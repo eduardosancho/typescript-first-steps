@@ -1,3 +1,3 @@
 async function hello() {
-  return 'world'
+  return "world";
 }

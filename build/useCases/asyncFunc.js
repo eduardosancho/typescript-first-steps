@@ -1,4 +1,4 @@
 "use strict";
 async function hello() {
-    return 'world';
+    return "world";
 }
