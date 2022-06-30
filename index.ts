@@ -4,6 +4,12 @@ async function hello() {
   return 'world'
 }
 
+// CUSTOM TYPE A FUNCTION
+function pow(x: number, y: number): string /* or void if there is no return */ {
+  return Math.pow(x, y).toString();
+}
+pow(5, 10)
+
 // CUSTOM TYPE AN OBJECT'S KEYS AND VALUES
 interface Person { first: string; last: string; [key: string]: any }
 const person: Person = { first: 'Jeff', last: 'Delaney' }

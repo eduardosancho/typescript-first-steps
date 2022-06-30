@@ -1,6 +1,11 @@
 async function hello() {
     return 'world';
 }
+// CUSTOM TYPE A FUNCTION
+function pow(x, y) {
+    return Math.pow(x, y).toString();
+}
+pow(5, 10);
 const person = { first: 'Jeff', last: 'Delaney' };
 const person2 = { first: 'Usain', last: 'Bolt', fast: true };
 let font;
