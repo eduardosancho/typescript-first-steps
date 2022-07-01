@@ -1,5 +1,5 @@
 // CUSTOM TYPE AN OBJECT'S KEYS AND VALUES
-interface Person {
+export interface Person {
   first: string;
   last: string;
   [key: string]: any;

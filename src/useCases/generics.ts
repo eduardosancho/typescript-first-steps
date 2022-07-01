@@ -1,3 +1,5 @@
+import { Person } from "./strongObject";
+
 //GENERICS
 class Observable<T> {
   // RxJS observable, has internal value the can be observed
